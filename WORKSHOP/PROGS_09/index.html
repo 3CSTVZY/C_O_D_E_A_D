@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <h3>
+      <!-- Form -> Fieldset -> Legend (+label) -->
+      <form action="juju.js" name="simple form" autocomplete="on"></form>
+      <fieldset>
+        <legend>Form</legend>
+        <label for="intro">Name</label>
+        <input type="text" id="intro" />
+        <br />
+        <br />
+        <label>Surname <input type="text" /></label>
+      </fieldset>
+      <hr size="8" color="green" />
+
+      <!-- Textarea -->
+      <textarea cols="20" rows="5"></textarea>
+      <br />
+      <textarea name="biggy" cols="20" rows="5"></textarea>
+      <br />
+      <textarea cols="20" rows="5" autofocus></textarea>
+      <br />
+      <textarea cols="20" rows="5" disabled></textarea>
+      <br />
+      <textarea cols="20" rows="5" readonly>Can't touch it ^_^</textarea>
+      <br />
+      <textarea cols="20" rows="5" placeholder="Try this..."></textarea>
+      <br />
+      <textarea cols="20" rows="5" maxlength="4"></textarea>
+      <br />
+      <textarea cols="20" rows="5" required></textarea>
+      <hr size="8" color="green" />
+
+      <!-- Select -->
+      <select>
+        <option value="Front">Front</option>
+        <option value="Back">Back</option>
+      </select>
+
+      <!-- Select with optgroup -->
+      <select>
+        <optgroup label="My choice">
+          <option value="Front">Front</option>
+        </optgroup>
+        <optgroup label="Not my choice">
+          <option value="back">Back</option>
+        </optgroup>
+      </select>
+
+      <!-- Multiple select -->
+      <select multiple>
+        <option value="Front">Front</option>
+        <option value="Back">Back</option>
+      </select>
+
+      <!-- Variaty -->
+      <select>
+        <option value="Front_End">Front</option>
+        <option value="Back" label="Back"></option>
+        <option value="Sel" selected>Selected</option>
+        <option value="Dis" disabled>Disabled</option>
+      </select>
+    </h3>
+  </body>
+</html>
