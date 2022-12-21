@@ -54,13 +54,18 @@
         margin-left: 1em;
         padding-left: 79em;
       }
+      main {
+        width: 40em;
+        margin: auto;
+        margin-top: 2em;
+      }
     </style>
   </head>
 
   <body>
     <header>
       <!-- Navigation -->
-      <nav class="navbar navbar-expand-xxl navbar-light bg-light">
+      <nav class="navbar navbar-expand-xxl navbar-dark bg-dark">
         <a class="navbar-brand" href="page_contacts.html" style="margin: 10px">
           <img src="Pics/icons8-leopard-48.png" alt="logo" />3CSTYZY</a
         >
@@ -99,21 +104,95 @@
               placeholder="Say it!"
               aria-label="Search"
             />
-            <button class="btn btn-outline-warning" type="submit">
-              Search
-            </button>
+            <button class="btn btn-outline-light" type="submit">Search</button>
           </form>
         </div>
       </nav>
     </header>
 
-    <!-- Code with formating -->
+    <!-- Carousel -->
     <main>
-      <pre>
-        <code>
-          JavaScript code is going to appear here soon...
-        </code>
-      </pre>
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-bs-ride="true"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <a
+              href="https://github.com/3CSTVZY"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="Pics/github_light.png"
+                class="d-block w-100"
+                alt="logo"
+              />
+            </a>
+          </div>
+          <div class="carousel-item">
+            <a
+              href="https://t.me/ECSTYZY"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src="Pics/tg_dark.png" class="d-block w-100" alt="logo" />
+            </a>
+          </div>
+          <div class="carousel-item">
+            <a
+              href="https://vk.com/bleedformax"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src="Pics/vk_light.png" class="d-block w-100" alt="logo" />
+            </a>
+          </div>
+        </div>
+
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
     </main>
     <footer>made by 3CSTYZY</footer>
   </body>
