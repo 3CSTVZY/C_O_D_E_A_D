@@ -67,6 +67,20 @@
       .card-img-top {
         border-radius: 1em;
       }
+      #course {
+        color: rgb(227, 0, 0);
+      }
+      #carouselExampleIndicators {
+        width: 30em;
+        margin: auto;
+      }
+      #docs {
+        margin-top: 1em;
+        margin-bottom: 1em;
+      }
+      .accordion-item:hover {
+        background-color: rgba(255, 92, 92, 0.163);
+      }
     </style>
   </head>
 
@@ -187,13 +201,174 @@
           </div>
         </div>
       </div>
+
+      <!-- Courses/books -->
+      <h2 class="text-center" style="margin-top: 1em">
+        <ins>Courses/Books</ins>
+      </h2>
+
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingOne">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseOne"
+              aria-expanded="false"
+              aria-controls="flush-collapseOne"
+            >
+              Skillbox
+            </button>
+          </h2>
+          <div
+            id="flush-collapseOne"
+            class="accordion-collapse collapse"
+            aria-labelledby="flush-headingOne"
+            data-bs-parent="#accordionFlushExample"
+          >
+            <div class="accordion-body">
+              The front-end developer course ->
+              <a
+                href="https://go.skillbox.ru/education/my"
+                target="_blank"
+                class="link-danger"
+                >Link</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingTwo">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseTwo"
+              aria-expanded="false"
+              aria-controls="flush-collapseTwo"
+            >
+              WebDesign course
+            </button>
+          </h2>
+          <div
+            id="flush-collapseTwo"
+            class="accordion-collapse collapse"
+            aria-labelledby="flush-headingTwo"
+            data-bs-parent="#accordionFlushExample"
+          >
+            <div class="accordion-body">
+              The practicing course ->
+              <span id="course"><u>COURSE (on disk)</u></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingThree">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseThree"
+              aria-expanded="false"
+              aria-controls="flush-collapseThree"
+            >
+              Glossary
+            </button>
+          </h2>
+          <div
+            id="flush-collapseThree"
+            class="accordion-collapse collapse"
+            aria-labelledby="flush-headingThree"
+            data-bs-parent="#accordionFlushExample"
+          >
+            <div class="accordion-body">
+              The glossary of html ->
+              <a
+                href="https://github.com/3CSTVZY/WEB/tree/main/BASE"
+                target="_blank"
+                class="link-danger"
+                >Link</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Docs -->
+      <h2 class="text-center" id="docs"><ins>Docs</ins></h2>
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-bs-ride="true"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <a
+              href="https://html5book.ru/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src="Pics/html_book.png" class="d-block w-100" alt="logo" />
+            </a>
+          </div>
+          <div class="carousel-item">
+            <a
+              href="https://html5css.ru/tags/default.php"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src="Pics/html5css.png" class="d-block w-100" alt="logo" />
+            </a>
+          </div>
+        </div>
+
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
     </main>
-
-    <!-- Courses/books -->
-    <h2>Courses/Books</h2>
-
-    <!-- Docs -->
-    <h2>Docs</h2>
 
     <footer>made by 3CSTYZY</footer>
   </body>
