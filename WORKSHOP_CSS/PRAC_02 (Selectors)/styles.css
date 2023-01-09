@@ -1,0 +1,24 @@
+* {
+  color: red;
+}
+
+h1 {
+  color: blue;
+}
+
+.heading1 {
+  text-decoration: underline;
+}
+
+.heading2 {
+  text-transform: uppercase;
+}
+
+p.fs20 {
+  font-size: 25px;
+}
+
+#heading {
+  font-size: 40px;
+  border: 1px solid black;
+}
