@@ -1,0 +1,44 @@
+h1,
+h2,
+span {
+  color: red;
+}
+
+div p {
+  color: green;
+}
+
+div p span {
+  color: blue;
+}
+
+ul li > span {
+  font-weight: bold;
+}
+
+ul li + li {
+  color: aqua;
+}
+
+br ~ p {
+  font-size: 30px;
+}
+
+a[target] {
+  color: brown;
+}
+
+a[target="_blank"] {
+  color: grey;
+}
+
+a[href^="http://123"]
+{
+  background-color: aquamarine;
+}
+a[href$=".jpg"] {
+  background-color: wheat;
+}
+a[href*="link"] {
+  background-color: rebeccapurple;
+}
