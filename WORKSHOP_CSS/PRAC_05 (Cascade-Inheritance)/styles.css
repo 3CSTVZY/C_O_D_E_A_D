@@ -1,0 +1,31 @@
+/* p {
+  background-color: green;
+  color: white;
+  padding: 10px;
+}
+
+.style1 {
+  background-color: aqua;
+  color: black;
+  border: none !important;
+}
+
+#style2 {
+  background-color: pink;
+  border: 2px solid black;
+}
+
+p {
+  background-color: gray;
+} */
+
+body {
+  color: red;
+  border: 2px solid black;
+  margin-bottom: 20px;
+}
+
+p {
+  border: inherit;
+  margin-bottom: inherit;
+}
